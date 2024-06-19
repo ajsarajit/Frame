@@ -1,0 +1,142 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.nav{
+    height: 10vh;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+.container{
+    height: 35vh;
+    width: 80vw;
+    margin-left: 8%;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.container1{
+    margin-top: 15px;
+    height: 30vh;
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.addbtn{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1%;
+    margin-right:14%;
+
+}
+.btnsec{
+    display: flex;
+    align-items: center;
+}
+.deletebtn{
+    height: 24px;
+    width: 24px;
+}
+.searchitem{
+    display: flex;
+    flex-direction: row ;
+    margin: 10px;
+}
+
+.addnewreport{
+    margin-top: 5%;
+    height: 25vh;
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.display{
+    display: none;
+}
+.folder{
+    display: flex;    
+    /* border: 1px solid red; */
+    width: 173vh;
+    /* height: 10vh; */
+    margin-top: 9px;
+    justify-content: "";
+}
+.folderContentCenter{
+    display: flex;    
+    width: 173vh;
+    margin-top: 9px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(182, 24, 24); */
+}
+.folder input{
+    padding: 5px 5px 5px 38px;
+  border: 1px dashed #ccc;
+  height: auto;
+  border-radius: 4px;
+  
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 25px 25px;
+}
+.para{
+    font-size: 12px;
+}
+
+.imageDiv{
+    position: relative;
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    justify-content: center;
+    height: 100%;
+}
+
+.innerImgDiv{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 96%;
+    height: 22px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+    font-weight: 400;
+    padding: 0 3px 0 0 ;
+    cursor: pointer;
+    
+}
+
+.innerImgDiv:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.parentImgDiv{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.plusdiv{
+    border: 1px solid #ccc;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: 400;
+    font-size: xx-large;
+    color: black;
+    cursor: pointer;
+}
+.plusdiv:hover{
+    color: #ccc;
+    border: 1px solid #000;
+}
